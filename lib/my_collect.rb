@@ -5,7 +5,7 @@ def my_collect(array)
       yield(array[i].capitalize)
       i = i + 1
     end
-    yield
+    array
   else
     nil
   end
