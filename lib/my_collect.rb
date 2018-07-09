@@ -2,7 +2,7 @@ def my_collect(array)
   if block_given?
     i = 0
     while i < array.length
-      yield(array[i].upcase && array[i].capitalize)
+      yield(array.upcase)
       i = i + 1
     end
     array
